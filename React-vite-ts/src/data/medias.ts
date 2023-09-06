@@ -1,0 +1,22 @@
+export const listMedias = [
+    {id: 1,name: 'Laptop',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Laptop-129x129.png' },
+    {id: 2,name: 'Tablet',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tablet-128x129.png' },
+    {id: 3,name: 'Đồng hồ thông minh',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-moi-128x129.png' },
+    {id: 4,name: 'Điện thoại đặc biết',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-doc-quyen-128x128.png' },
+    {id: 5,name: 'Đồng hồ thời trang',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothoitrang-128x129.png' },
+    {id: 6,name: 'Máy cũ giá rẻ',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-may-cu-60x60.png' },
+    {id: 7,name: 'Ốp lưng',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Oplung-128x128.png' },
+    {id: 8,name: 'Chuột máy tính',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/chuot-128x129.png' },
+    {id: 9,name: 'Bàn phím',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/ban-phim-128x129.png' },
+    {id: 10,name: 'Sim, thẻ cào',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Simthecao-129x129.png' },
+    {id: 11,name: 'Loa',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Loa-128x128.png' },
+    {id: 12,name: 'Tai nghe',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tainghe-128x129.png' },
+    {id: 13,name: 'Sạc dự phòng',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Sacduphong-128x129.png' },
+    {id: 14,name: 'Cáp sạc',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Capsac-129x129.png' },
+    {id: 15,name: 'Máy tính bộ',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Maytinhbo-128x129.png' },
+    {id: 16,name: 'Máy in',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Mayin-128x129.png' },
+    {id: 17,name: 'Màn hình máy tính',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Manhinhmaytinh-128x129.png' },
+    {id: 18,name: 'Phụ kiện gaming',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Phukiengaming-128x129.png' },
+    {id: 19,name: 'Camera, webcam',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-camera-128x129.png' },
+    {id: 20,name: 'Thiết bị nhà thông minh',thumb: 'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/may-chieu-icon-128x129.png' }
+];

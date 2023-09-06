@@ -1,0 +1,17 @@
+.item {
+}
+
+.thumb > img {
+    display: block;
+    height: 56px;
+    margin: auto;
+    width: auto;
+    height: 60px;
+}
+
+.thumb > span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 5px;
+}

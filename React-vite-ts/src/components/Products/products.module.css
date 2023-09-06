@@ -1,0 +1,27 @@
+
+.product_list {
+    display: flex;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+.item {
+    margin-right: 40px;
+}
+
+.thumb {
+
+}
+
+.promoPrice {
+    background-color: #f80;
+    width: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.price {
+
+}

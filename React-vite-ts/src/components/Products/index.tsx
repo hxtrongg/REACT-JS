@@ -1,4 +1,3 @@
-import React from 'react'
 import {products} from '../../data/products'
 import styles from './products.module.css'
 import numeral from 'numeral';
@@ -24,7 +23,7 @@ const SingleProduct = ({products}: {products: SingleProductProps})=>{
                 <img src={products.thumb} alt="" />
             </div>
             <h3>{products.name}</h3>
-            <div className='price'>
+            <div className={styles.price}>
                 {
                     products.promoPrice >= 0 ? (
                        <>

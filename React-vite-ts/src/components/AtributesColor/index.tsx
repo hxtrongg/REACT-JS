@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './AttribuesColor.module.css'
 
 const AttrItem = ({label, active=false}: {label: string, active?: boolean})=>{

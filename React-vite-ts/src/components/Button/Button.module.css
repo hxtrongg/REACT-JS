@@ -1,5 +1,6 @@
 .left{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     padding: 10px 12px;
     appearance: none;
     background-color: #f80;
@@ -7,30 +8,17 @@
     text-align: center;
     border: none;
     margin-right: 10px;
-    font-weight: 500;
     width: 200px;
-    line-height: 1.5;
+
 }
 
 .right {
-    display: inline-block;
-    padding: 10px 12px;
-    appearance: none;
-    background-color: rgb(36, 35, 34);
-    color: #fff;
-    text-align: center;
-    border: none;
-    margin-right: 10px;
-    font-weight: 500;
-    width: 200px;
+    background-color: #212121;
+    padding-left: 45px;
 
 }
 
 .icon {
-    display: inline-block;
     margin-right: 8px;
 }
 
-.items {
-    padding-top: 40px;
-}

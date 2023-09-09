@@ -1,85 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+/* Ưu tiên css tăng dần base->components->utilities */
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(12, 12, 12, 0.87);
-  background-color: #fcfbfb;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-h2 {
-  font-weight: 500;
-  line-height: 1.1;
-  font-size: 1.5em;
-}
-h6 {
-  font-weight: 500;
-  line-height: 1.1;
-  font-size: 1em;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* lớp cở bản */
+@layer base {
+  .btn {
+     @apply py-2 px-3 text-white border-0 rounded
   }
-  a:hover {
-    color: #747bff;
+ 
+}
+
+/* Lớp biến thể */
+@layer components {
+  
+  .btn-orange {
+    @apply  bg-orange-500 hover:bg-orange-600
   }
-  button {
-    background-color: #f9f9f9;
+
+  .btn-sky {
+    @apply  bg-sky-500 hover:bg-sky-600
   }
+}
+
+/* ưu tiên cao  */
+@layer utilities {
+  
+  .btn-small {
+     @apply py-1 px-2
+  }
+
+  .btn-xl {
+    @apply py-3 px-5
+  }
+}
+
+
+/* ưu tiên cao nhất */
+.button{
+  padding: 10px 12px;
+  appearance: none;
+  background-color: rgb(65, 0, 131);
+  color: #fff;
+  text-align: center;
+  border: none;
+  margin-right: 10px;
 }

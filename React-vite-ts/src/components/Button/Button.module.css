@@ -8,8 +8,12 @@
     text-align: center;
     border: none;
     margin-right: 10px;
-    width: 200px;
+    width: 190px;
 
+}
+
+.left svg {
+   margin-right: 8px;
 }
 
 .right {

@@ -22,10 +22,8 @@ function SingleButons ({icon='', lable='Default', className=''} : ButtonProps) {
 const Buttons = () => {
   return (
     <>
-      <SingleButons icon={<FiShoppingCart style={{ marginRight:'8px' }}/>} lable='Thêm vào giỏ hàng'/>
-     
-      
-      <SingleButons className='right' icon={<FiPhone style={{ marginRight:'8px' }}/> } lable='Gọi tư vấn'/>
+      <SingleButons icon={<FiShoppingCart />} lable='Thêm vào giỏ hàng'/>
+      <SingleButons className='right' icon={<FiPhone />} lable='Gọi tư vấn'/>
     </>
   )
 }

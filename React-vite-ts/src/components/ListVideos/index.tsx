@@ -1,5 +1,5 @@
-import React from 'react'
-import {FiHeart} from 'react-icons/fi'
+import { useState } from 'react'
+import {IoIosHeart} from 'react-icons/io'
 import styles from './ListVideos.module.css'
 
 type SingleVideoType = {
@@ -7,20 +7,25 @@ type SingleVideoType = {
     title: string,
     desc: string
 }
+const SingleVideo = ({ thumb, title, desc }: SingleVideoType) => {
+    const [iconColor, setIconColor] = useState('black'); // Khởi tạo màu ban đầu
 
-const SingleVideo = ({thumb, title, desc}: SingleVideoType)=>{
-    
+    const handleIconClick = () => {
+        // Thay đổi màu khi biểu tượng được click
+        setIconColor(iconColor === 'black' ? 'red' : 'black');
+    };
+
     return (
         <div className={styles.video_item}>
             <div className={styles.thumb}>
-                <img src={thumb} alt={title}/>
+                <img src={thumb} alt={title} />
             </div>
             <div className={styles.content}>
                 <h3>{title}</h3>
                 <p>{desc}</p>
             </div>
             <div className={styles.icons}>
-                <FiHeart />
+                <IoIosHeart onClick={handleIconClick} style={{ color: iconColor, cursor: 'pointer' }} />
             </div>
         </div>
     )
@@ -38,4 +43,4 @@ const VideosList = () => {
   )
 }
 
-export default VideosList
+export default VideosList;

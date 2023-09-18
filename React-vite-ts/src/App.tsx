@@ -1,7 +1,6 @@
 
-
+import './Apps.css'
 import Product from "./Pages/Product"
-import './App.css'
 import AttribuesColor from "./components/AtributesColor"
 import ColorChangeButton from "./components/AtributesColor/ChangeColor"
 import Buttons from "./components/Button"

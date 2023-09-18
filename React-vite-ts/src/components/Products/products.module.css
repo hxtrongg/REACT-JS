@@ -4,10 +4,14 @@
     padding-top: 40px;
     column-gap: 20px;
     margin-left: 40px;
+    width: 100%;
+    height: auto;
 }
 
+
 .item {
-    margin-right: 4git 0px;
+    margin-right: 4px 0px;
+   
 }
 
 .item > h3 {
@@ -19,8 +23,10 @@
     border-radius: 5px;
 }
 
+
+
 .promoPrice {
-    background-color: #f80;
+    background-color: #ff6700;
     width: 40px;
     margin-left: 200px;
     border-radius: 5px;

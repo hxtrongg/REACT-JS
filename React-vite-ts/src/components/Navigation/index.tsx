@@ -1,5 +1,6 @@
 import styles from './Navigation.module.css'
 import { navigation } from '../../data/Navigation'
+import { FiShoppingCart } from 'react-icons/fi'
 
 type ChildType = {
     id: number,
@@ -14,12 +15,13 @@ type SingleNavType = {
 }
 
 const SingleNav = ({item} : {item: SingleNavType}) =>{
+  
     return (
-        <li>
+        <li className={styles.has_child}>
             <a href={item.link}>{item.name}</a>
             {
                 item.childs && item.childs.length > 0 ? (
-                   <div>
+                   <div className={styles.nav_chidls}>
                         {
                             item.childs.map((child)=> {
                                 return <a key={child.id} href={child.link}>{child.name}</a>
@@ -41,8 +43,11 @@ const Navigation = () => {
       {
         navigation.map((item)=> <SingleNav key={item.id} item={item} />)
       }
-      
+       <div className={styles.cart}>
+          <FiShoppingCart />0
+       </div>
     </ul>
+   
   </nav>
   )
 }

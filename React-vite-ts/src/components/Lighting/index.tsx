@@ -13,7 +13,7 @@ const Lighting = () => {
                 <li><span>23 Now, 2019, Posted by: admin, 2 Comments</span></li>
                 <li><p>Một cách khác để căn giữa theo chiều dọc là sử dụng thuộc tính .
                     Điều này đặc biệt hữu ích khi bạn muốn</p></li>
-                <a className='flex' href="/"> Read More <img src="./images/tamgiac.png" alt="" /></a>
+                <a className={styles.readmore} href="/"> Read More</a>
             </div>
         </div>
     </>

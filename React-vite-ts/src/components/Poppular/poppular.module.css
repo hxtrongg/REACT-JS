@@ -1,0 +1,14 @@
+
+
+.list_poppular a{
+    padding: 0.64em 0.6em 0.56em;
+    margin: 0 0.4rem 0.8rem 0;
+    border: 1px solid #313438;
+    color: inherit;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+}

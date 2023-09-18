@@ -7,9 +7,9 @@ const Header = () => {
     //className={`bg-color ${styles.header}`}
   return (
     <header className={clsx('bg-color',styles.header)}>
-      <div className="container">
+      <div className={styles.header_container}>
         <div className={styles.header_wrapper}>
-          <div className="logo">FakeShop</div>
+          <div className={styles.logo}>FakeShop</div>
           <Navigation />
         </div>
       </div>

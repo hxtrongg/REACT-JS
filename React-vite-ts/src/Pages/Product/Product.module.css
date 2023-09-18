@@ -13,3 +13,32 @@
 .product_details {
     display: flex;
 }
+
+.product_infos {
+    padding-top: 20px;
+}
+
+.tage ul{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    padding: 20px 0;
+    font-family: 300;
+}
+
+
+.breadcrumbs li a::after{
+    content: "›";
+    margin: 0px 5px;
+}
+
+/* Lỗi */
+.breadcrumbs li:last-child::after {
+    content: none; /* Bỏ nội dung */
+    margin: 0; /* Bỏ margin */
+}
+
+aside h2 {
+    font-size: 20px;
+    font-weight: 600;
+}

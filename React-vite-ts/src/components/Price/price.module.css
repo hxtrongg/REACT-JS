@@ -1,0 +1,15 @@
+.product_name {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.product_price strong {
+    font-size: 28px;
+    color: #f80;
+    margin-right: 15px;
+}
+
+del {
+    text-decoration: line-through;
+}

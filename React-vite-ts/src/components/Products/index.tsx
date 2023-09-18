@@ -18,7 +18,7 @@ const SingleProduct = ({products}: {products: SingleProductProps})=>{
 
     return (
         <div className={styles.item}>
-            <div className="thumb">
+            <div className={styles.thumb}>
                 <div className={styles.promoPrice}>{discount > 0 ? `${discount} %` : null }</div>
                 <img src={products.thumb} alt="" />
             </div>
@@ -43,7 +43,7 @@ const SingleProduct = ({products}: {products: SingleProductProps})=>{
 
 const ProductsList = () => {
     //Lọc sản phẩm
-    const newProducts = products.filter(product => product.promoPrice > 0)
+    const newProducts = products.filter(product => product.promoPrice >= 0)
 
     
 

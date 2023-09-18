@@ -1,7 +1,6 @@
 
 import styles from './Button.module.css'
-import { FiShoppingCart } from 'react-icons/fi'
-import {FiPhone} from 'react-icons/fi'
+import { FiShoppingCart,FiHeart } from 'react-icons/fi'
 
 type ButtonProps = {
   icon:React.ReactNode,
@@ -23,7 +22,7 @@ const Buttons = () => {
   return (
     <>
       <SingleButons icon={<FiShoppingCart />} lable='Thêm vào giỏ hàng'/>
-      <SingleButons className='right' icon={<FiPhone />} lable='Gọi tư vấn'/>
+      <SingleButons className='right' icon={<FiHeart />} lable='Yêu thích'/>
     </>
   )
 }
